@@ -10,9 +10,9 @@ using std::pair;
 using std::make_pair;
 const int Lim = 100;
 /*
-return 0 means: input data error;
-return 1 means: unsatisfied;
-return 2 means: tansform secceed;
+return 0 means: Input data error;
+return 1 means: Unsatisfied;
+return 2 means: Reformulation secceed;
 */
 
 
