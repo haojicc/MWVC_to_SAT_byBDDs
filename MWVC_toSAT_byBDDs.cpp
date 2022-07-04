@@ -151,7 +151,7 @@ class MWVC{
         return dp[std::make_pair(i,sum)];
     }
     /*
-    I need a consturct whose name is BDDNode has 4 satellite_dataes{int leftvari, int leftsum, int rightvari, int rightsum}.
+    I need a consturct whose name is BDDNode has 4 satellite_dataes{int leftsum, int rightsum}.
     For save the dp_table, I need a map<pair<int, int>, BDDNode*>.
     When the inequality don't hold, we save the nullptr in the map_table.
     When the inequality hold, we save a particular node.(the satellite data have to some value?)
