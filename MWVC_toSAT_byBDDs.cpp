@@ -237,7 +237,7 @@ int main(){
     clock_t start, finish;
     start = clock();
     std::ofstream outFile;
-    srand (time(nullptr));
+    srand (1);
     MWVC ojb;
     outFile.open("/Users/haoji/Downloads/test.txt");
 
@@ -253,7 +253,9 @@ int main(){
         corfficient[i] = temp;
     }
 
-//    corfficient[0] = rand() % (Lim + 1)* Lim / 2;
+//  corfficient[0] = rand() % ((Lim + 1)* Lim / 2);
+//  corfficient[0] = rand() % (10*Lim);
+//  corfficient[0] = rand() % (100*Lim);
     corfficient[0] = rand() % Lim;
 
     outFile << "--初始化数据--" << std::endl;
